@@ -10,5 +10,5 @@ A deep dive into Layer 3 Networking, solving complex IP addressing challenges an
 </p>
 
 <p align="center">
-  <img src="Imags/Intro.png" alt="NetPractice Banner">
+  <img src="Imags/Into.png" alt="NetPractice Banner">
 </p>
