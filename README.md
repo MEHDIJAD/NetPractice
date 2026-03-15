@@ -44,7 +44,7 @@ graph LR
     style Neighborhood_B fill:#bbf,stroke:#333
 ```
 
-### **2. The TCP/IP Handshake: The Formal Intro**
+### **2. The TCP/IP Handshake: The Formal Intro** 🚙
 
 Before data moves, computers perform a "**Three-Way Handshake.**" It’s like a polite phone call:
 
@@ -54,7 +54,7 @@ Before data moves, computers perform a "**Three-Way Handshake.**" It’s like a 
 
 **ACK:** "Perfect, let's talk."
 
-### 🌎 **3. WAN Technologies — Connecting the World**
+### **3. WAN Technologies — Connecting the World** 🌎
 
 In the first few levels of NetPractice, you work within a **LAN (Local Area Network)**. But as you progress to Level 6 and beyond, you start interacting with the Internet, which is the ultimate **WAN (Wide Area Network)**.
 
@@ -107,3 +107,56 @@ graph LR
 
     style WAN_Link fill:#fff8e6,stroke:#d9a400,stroke-dasharray: 5 5
 ```
+
+## 🏗️ The OSI & TCP/IP Models — The Layered Logic
+
+To make computers from different manufacturers (like Apple, IBM, or a custom Linux server) talk to each other, they must follow a standardized "Stack."
+
+### **The Concept: The Layered Package 📦**
+
+Imagine you are sending a letter. You don't just throw a piece of paper into the street. You:
+
+1. **Write the message** (Data).
+
+2. **Put it in an envelope** (Segment/Packet).
+
+3. **Add a street address** (IP/MAC).
+
+4. **Hand it to a postman** (Physical transmission).
+
+This process of "wrapping" data is called **Encapsulation**.
+
+
+#### **1. The OSI Model (The 7-Layer Theory)**
+
+This is the universal reference model. Even if we don't use all 7 layers in every project, network engineers use these numbers to troubleshoot.
+
+<p align="center">
+  <img src="Imags/Layer.png" alt="NetPractice Banner">
+</p>
+
+### **2. The TCP/IP Model (The 4-Layer Reality)**
+
+This is what the Internet actually runs on. It’s a simplified version of the OSI:
+
+* **Application:** (Combines OSI 5, 6, 7) — HTTP, DNS, FTP.
+
+* **Transport:** TCP/UDP.
+
+* **Internet:** IP (The Layer 3 logic).
+
+* **Network Access:** (Combines OSI 1, 2) — Ethernet, Wi-Fi.
+
+<p align="center">
+  <img src="Imags/TCP.png" alt="NetPractice Banner">
+</p>
+
+### 🔄 Encapsulation & Decapsulation
+
+Encapsulation (Sending): As data moves down the stack on your computer, each layer adds its own "Header" (a sticker with info).
+
+Decapsulation (Receiving): As the data moves up the stack on the server, it peels off those stickers one by one until it reads your message.
+
+<p align="center">
+  <img src="Imags/encap.png" alt="NetPractice Banner">
+</p>
