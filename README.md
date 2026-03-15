@@ -44,7 +44,7 @@ graph LR
     style Neighborhood_B fill:#bbf,stroke:#333
 ```
 
-### **2. The TCP/IP Handshake: The Formal Intro** 🚙
+### **2. The TCP/IP Handshake: The Formal Intro** 
 
 Before data moves, computers perform a "**Three-Way Handshake.**" It’s like a polite phone call:
 
@@ -54,7 +54,7 @@ Before data moves, computers perform a "**Three-Way Handshake.**" It’s like a 
 
 **ACK:** "Perfect, let's talk."
 
-### **3. WAN Technologies — Connecting the World** 🌎
+### **3. WAN Technologies — Connecting the World**
 
 In the first few levels of NetPractice, you work within a **LAN (Local Area Network)**. But as you progress to Level 6 and beyond, you start interacting with the Internet, which is the ultimate **WAN (Wide Area Network)**.
 
@@ -74,7 +74,7 @@ Imagine you need to send a secure package from your office in Khouribga to a bra
 
   * **Cons:** If the public highway is crowded (traffic/latency), your package might slow down.
 
-#### **🏗️ WAN Design in NetPractice**
+#### **WAN Design in NetPractice**
 
 When you see a router connecting to the "Internet" in the project, you are dealing with a **Point-to-Point link**.
 
