@@ -31,7 +31,7 @@ To understand networking, stop thinking about numbers and start thinking about a
 
 A large network is like a giant pizza. Subnetting is how we slice it so different teams (web servers, databases, users) don't get in each other's way.
 
-```
+```mermaid
 graph LR
     A[Internet] --> B((Router))
     subgraph Neighborhood_A [Subnet 1: Public Web]
