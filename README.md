@@ -160,3 +160,7 @@ Decapsulation (Receiving): As the data moves up the stack on the server, it peel
 <p align="center">
   <img src="Imags/encap.png" alt="NetPractice Banner">
 </p>
+
+<p align="center">
+  <img src="Imags/encap2.png" alt="NetPractice Banner">
+</p>
